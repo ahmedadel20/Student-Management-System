@@ -1,5 +1,6 @@
-package com.example.myspringapp;
+package com.example.myspringapp.school;
 
+import com.example.myspringapp.student.Student;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

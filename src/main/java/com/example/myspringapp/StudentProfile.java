@@ -1,5 +1,6 @@
 package com.example.myspringapp;
 
+import com.example.myspringapp.student.Student;
 import jakarta.persistence.*;
 
 @Entity
