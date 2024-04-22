@@ -1,5 +1,6 @@
 package com.example.myspringapp.school;
 
+import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -15,7 +16,8 @@ public class SchoolController {
     }
 
     @PostMapping("/schools")
-    public SchoolDTO create(@RequestBody SchoolDTO schoolDTO){
+    public SchoolDTO create(
+            @Valid @RequestBody SchoolDTO schoolDTO){
 
         return schoolService.create(schoolDTO);
     }
