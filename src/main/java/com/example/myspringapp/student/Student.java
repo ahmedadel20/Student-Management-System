@@ -1,6 +1,6 @@
 package com.example.myspringapp.student;
 
-import com.example.myspringapp.StudentProfile;
+import com.example.myspringapp.studentProfile.StudentProfile;
 import com.example.myspringapp.school.School;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
